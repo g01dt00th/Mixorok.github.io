@@ -349,35 +349,79 @@ h4 {
   margin: 0 auto;
 }
 
-.footer{
+.footer {
   padding-top: 70px;
   padding-bottom: 70px;
   background-color: rgba(78, 83, 66, 0.6);
-  
 }
 
-.footer h3{
+.footer h3 {
   font-size: 25px;
   font-weight: bold;
   text-transform: uppercase;
   color: #e7e7e7;
 }
 
-.footer p{
+.footer p {
   color: #e7e7e7;
   font-size: 18px;
+  margin-top: 50px;
+  width: 350px;
 }
 
-.footer .foooter__link{
+.footer .foooter__link {
   display: block;
   color: #e7e7e7;
   font-weight: bold;
   font-size: 20px;
 }
 
-.footer .footer__mainlink{
+.footer .footer__mainlink {
   color: #e7e7e7;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 20px;
+}
+
+@media screen and (max-width: 1125px) {
+  .discover .img {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .header .header__nav p {
+    display: none;
+  }
+
+  .header .btn p {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .header .btn {
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (max-width: 911px) {
+  .discover .row .col {
+    margin-left: 25%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .PreHeader .h4 {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .footer p {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .whatimg {
+    display: none;
+  }
 }
