@@ -1,0 +1,383 @@
+@font-face {
+  font-family: "GoodDog-Cool";
+  src: url("../fonts/GoodDog-Cool.ttf.woff") format("woff"),
+    url("../fonts/GoodDog-Cool.ttf.svg#GoodDog-Cool") format("svg"),
+    url("../fonts/GoodDog-Cool.ttf.eot"),
+    url("../fonts/GoodDog-Cool.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #212121;
+  color: #9baf6d;
+  font-family: "Montserrat", sans-serif;
+  background-image: url(../img/Frame_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  background-image: url(../img/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-transform: uppercase;
+  font-size: 1.67rem; /*35px*/
+}
+
+p {
+  color: #898989;
+}
+
+.header p {
+  color: #9baf6d;
+}
+
+h4 {
+  font-size: 25px;
+  font-family: "GoodDog-Cool";
+}
+
+.header li {
+  list-style-type: none;
+  display: inline;
+}
+
+.header a {
+  text-decoration: none;
+  color: #9baf6d;
+}
+
+.header h2 {
+  font-size: 3.7rem; /*78px*/
+  font-weight: bold;
+}
+.header h3 {
+  font-size: 2.7rem; /*57px*/
+  padding-top: 5.2rem; /*110px*/
+}
+
+.header .btn {
+  border: none;
+  border-radius: 5px; /*57px*/
+  margin-top: 7.1rem; /*57px*/
+  margin-bottom: 11.4rem; /*240px*/
+  font-size: 2.3rem; /*49px*/
+  text-transform: uppercase;
+}
+
+.header .btn-primary {
+  background-color: rgba(155, 175, 109, 0.3);
+}
+
+.header .btn-primary:hover {
+  background-color: rgba(94, 100, 81, 0.5);
+}
+
+.header .btn p {
+  color: #afc67b;
+}
+
+.whatimg {
+  background-image: url(../img/whatwedo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.whatwedo p {
+  color: #898989;
+  margin-top: 45px;
+  font-size: 18px;
+}
+
+.descr {
+  width: 530px;
+  margin-top: 165px;
+  margin-bottom: 180px;
+}
+
+.whywe {
+  background-color: rgba(78, 83, 66, 0.6);
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.whywe h4 {
+  color: white;
+  padding-bottom: 30px;
+  padding-top: 25px;
+}
+
+.ctn__menu {
+  background-color: rgba(78, 83, 66, 0.6);
+  margin-top: 90px;
+  padding: 0;
+}
+
+.menu__text {
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.menu__text p {
+  margin: 0;
+  padding: 0;
+}
+
+.menu__webring {
+  font-size: 45px;
+  color: #afc67b;
+  font-family: "GoodDog-Cool";
+}
+
+.menu__desc {
+  text-align: center;
+}
+
+.menu__desc p {
+  color: #e8e8e8;
+}
+
+.price {
+  font-size: 25px;
+  font-family: "GoodDog-Cool";
+}
+
+.fooddesc {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.menu {
+  padding-bottom: 90px;
+}
+
+.welike {
+  background-color: rgba(78, 83, 66, 0.6);
+  padding-top: 110px;
+  padding-bottom: 90px;
+}
+
+.bg2 {
+  background-image: url(../img/Bacg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 238px;
+}
+
+.bg2_down {
+  background-image: url(../img/Bacg2.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 889px;
+}
+
+.discover {
+  padding-top: 51px;
+  background-color: rgba(78, 83, 66, 0.6);
+}
+
+.discover h2 {
+  font-size: 70px;
+  font-family: "GoodDog-Cool";
+  color: #e7e7e7;
+  margin-bottom: -10px;
+}
+
+.discover h3 {
+  font-size: 45px;
+  text-transform: uppercase;
+  color: #e7e7e7;
+  margin-bottom: 39px;
+}
+
+.discover .img {
+  height: 81px;
+  width: 81px;
+  background-color: #c5c6c4;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 81px;
+  margin-left: 107px;
+  margin-right: 10px;
+}
+
+.discover img {
+  vertical-align: middle;
+}
+
+.discover p {
+  color: #e7e7e7;
+  line-height: 20px;
+  margin-top: 15px;
+}
+
+.discover .col {
+  margin-bottom: 54px;
+}
+
+.maindis {
+  font-size: 25px;
+  font-family: "GoodDog-Cool";
+  color: #e7e7e7;
+  line-height: 0px;
+  margin-bottom: -20px;
+}
+
+.discover .textdisc {
+  width: 335px;
+}
+
+.bookh {
+  padding-top: 45px;
+  padding-bottom: 70px;
+}
+
+.bookh h2 {
+  font-size: 77px;
+  font-family: "GoodDog-Cool";
+  color: #ffffff;
+}
+
+.bg3 {
+  background-image: url(../img/Bacg3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 870px;
+}
+
+.discovernew {
+  padding-top: 45px;
+  padding-bottom: 115px;
+  background-color: rgba(78, 83, 66, 0.6);
+}
+
+.discovernew h2 {
+  font-size: 77px;
+  font-family: "GoodDog-Cool";
+  color: #afc67b;
+  margin-bottom: -15px;
+}
+
+.discovernew h3 {
+  font-size: 47px;
+  text-transform: uppercase;
+  color: #e7e7e7;
+  margin-bottom: 55px;
+}
+
+.discovernew h5 {
+  font-size: 14px;
+  color: #555555;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.discovernew .card-title {
+  font-size: 16px;
+  color: #4f4e4e;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.discovernew .card {
+  background-color: #e5e5e5;
+  width: 340px;
+  border: none;
+}
+
+.discovernew .btn {
+  color: #555555;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.discovernew hr {
+  border: none; /* Убираем границу */
+  background-color: #afc67b; /* Цвет линии */
+  height: 7px; /* Толщина линии */
+  margin-top: -4px;
+}
+
+.PreHeader {
+  margin-bottom: 45px;
+  margin-top: 55px;
+}
+
+.PreHeader .container {
+  margin: 0 auto;
+}
+
+.PreHeader h2 {
+  font-size: 83px;
+  font-family: "GoodDog-Cool";
+  color: #afc67b;
+
+  margin-bottom: -30px;
+}
+
+.PreHeader .h4 {
+  width: 684px;
+  margin: 0 auto;
+}
+
+.PreHeader h4 {
+  font-family: "Montserrat";
+  font-size: 18px;
+  color: #afc67b;
+  margin-bottom: 20px;
+}
+
+.PreHeader h3 {
+  font-size: 29px;
+  font-family: "GoodDog-Cool";
+  color: #afc67b;
+  margin-bottom: 33px;
+}
+
+.PreHeader .social {
+  width: 335px;
+  margin: 0 auto;
+}
+
+.footer{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: rgba(78, 83, 66, 0.6);
+  
+}
+
+.footer h3{
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #e7e7e7;
+}
+
+.footer p{
+  color: #e7e7e7;
+  font-size: 18px;
+}
+
+.footer .foooter__link{
+  display: block;
+  color: #e7e7e7;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer .footer__mainlink{
+  color: #e7e7e7;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+}
