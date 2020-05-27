@@ -1,0 +1,6 @@
+#Options+FollowSymLinks
+IndexIgnore */*
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^/(web)
+RewriteRule ^images/(.*)$ web/images/$1 [L]
+RewriteRule (.*) http://localhost/examyii/web/$1
