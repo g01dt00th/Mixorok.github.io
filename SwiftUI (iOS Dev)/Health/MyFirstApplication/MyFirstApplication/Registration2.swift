@@ -12,7 +12,7 @@ import SwiftUI
 
 
 struct Registration2: View {
-    @ObservedObject var user = User()
+    @EnvironmentObject var user: UserModel
         @State private var back = false
 
     var body: some View {

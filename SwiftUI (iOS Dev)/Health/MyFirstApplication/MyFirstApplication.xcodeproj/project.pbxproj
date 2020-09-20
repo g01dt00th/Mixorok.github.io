@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4B1BE832517859D000AFE7D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B1BE822517859D000AFE7D /* UserModel.swift */; };
 		D95730A125097AC100F9B479 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95730A025097AC100F9B479 /* Registration.swift */; };
 		D95730A3250A25E500F9B479 /* Registration2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95730A2250A25E500F9B479 /* Registration2.swift */; };
 		D9C8EB2A25054A7A0079DA50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C8EB2925054A7A0079DA50 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B4B1BE822517859D000AFE7D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		D95730A025097AC100F9B479 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
 		D95730A2250A25E500F9B479 /* Registration2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration2.swift; sourceTree = "<group>"; };
 		D9C8EB2625054A7A0079DA50 /* MyFirstApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,7 @@
 				D9C8EB2925054A7A0079DA50 /* AppDelegate.swift */,
 				D9C8EB2B25054A7A0079DA50 /* SceneDelegate.swift */,
 				D9C8EB2D25054A7A0079DA50 /* ContentView.swift */,
+				B4B1BE822517859D000AFE7D /* UserModel.swift */,
 				D9C8EB2F25054A800079DA50 /* Assets.xcassets */,
 				D9C8EB3425054A810079DA50 /* LaunchScreen.storyboard */,
 				D9C8EB3725054A810079DA50 /* Info.plist */,
@@ -156,6 +159,7 @@
 				D95730A125097AC100F9B479 /* Registration.swift in Sources */,
 				D9C8EB2A25054A7A0079DA50 /* AppDelegate.swift in Sources */,
 				D9C8EB2C25054A7A0079DA50 /* SceneDelegate.swift in Sources */,
+				B4B1BE832517859D000AFE7D /* UserModel.swift in Sources */,
 				D9C8EB2E25054A7A0079DA50 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

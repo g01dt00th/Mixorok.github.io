@@ -8,15 +8,8 @@
 
 import SwiftUI
 
-class User: ObservableObject {
-   @Published var name = ""
-    @Published var age = ""
-    @Published var education = false
-    @Published var work = false
-}
-
 struct Registration: View {
-    @ObservedObject var user = User()
+    @EnvironmentObject var user: UserModel
     @State private var next = false
     
     var body: some View {
